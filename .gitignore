@@ -1,12 +1,52 @@
-# Ignorar dependências
+# ----------------------------------------------------------
+# 🧠 PROJETO: Ficha 5 — Symbaroum (React + Vite + TypeScript)
+# ----------------------------------------------------------
+
+# 🗂️ Dependências e builds
 node_modules/
 dist/
 .vite/
 .cache/
+build/
+temp/
+tmp/
 
-# Logs e configs locais
+# ⚙️ Arquivos de ambiente e configs locais
+.env
+.env.local
+.env.*.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.DS_Store
+pnpm-debug.log*
+package-lock.json.lck
 Thumbs.db
+.DS_Store
+
+# 🔧 VSCode e IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 🧪 Testes / Coverage
+coverage/
+*.lcov
+
+# ⚠️ Logs e diagnósticos
+*.log
+*.trace
+
+# 🧰 Git temporários
+.gitignore~
+.gitmodules~
+*.orig
+*.rej
+*.bak
+*.tmp
+
+# 📦 Arquivos de deploy
+gh-pages/
