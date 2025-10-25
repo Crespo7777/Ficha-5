@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "description": "Ficha de personagem Symbaroum com dados e log compartilhado no Owlbear Rodeo.",
-  "icon": "/icon.png",
+  "icon": "/Ficha-5/icon.png",
   "author": "Crespo7777",
   "homepage_url": "https://github.com/Crespo7777/Ficha-5",
   "action": {
     "title": "Ficha 5 (Symbaroum)",
-    "icon": "/icon.png",
-    "popover": "/",
+    "icon": "/Ficha-5/icon.png",
+    "popover": "/Ficha-5/",
     "height": 620,
     "width": 460
   }
