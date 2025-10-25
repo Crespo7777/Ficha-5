@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ficha Symbaroum</title>
+  <link rel="stylesheet" href="sheet.css" />
+  <!-- SDK via CDN, sem build -->
+  <script defer src="https://unpkg.com/@owlbear-rodeo/sdk@latest/dist/obr.min.js"></script>
+  <script defer src="sheet.js"></script>
+</head>
+<body>
+  <div id="sheet">
+    <h1>Ficha de Personagem – Symbaroum</h1>
+
+    <section class="grid">
+      <div>
+        <h2>Atributos</h2>
+        <label>Força <input type="number" id="forca" value="10" /></label>
+        <label>Destreza <input type="number" id="destreza" value="10" /></label>
+        <label>Vontade <input type="number" id="vontade" value="10" /></label>
+        <button id="salvar">Salvar Atributos</button>
+      </div>
+
+      <div>
+        <h2>Rolagens</h2>
+        <button id="rollAtaque">Ataque (1d20 + Força)</button>
+        <button id="rollTeste">Teste Destreza (1d20 + DEX)</button>
+
+        <div class="roller">
+          <label>Rolagem Livre (ex: 2d8+3)</label>
+          <input id="expr" placeholder="1d20+2" />
+          <button id="rollLivre">Rolar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="chat">
+      <h2>Log de Rolagens</h2>
+      <div id="chatLog"></div>
+      <div class="chat-input">
+        <input id="msg" placeholder="Mensagem (opcional)" />
+        <button id="enviar">Enviar</button>
+        <button id="limpar">Limpar</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

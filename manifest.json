@@ -1,0 +1,14 @@
+{
+  "name": "Ficha Symbaroum – Personagem",
+  "version": "0.2.0",
+  "manifest_version": 1,
+  "author": "Seu Nome",
+  "description": "Ficha de personagem para Symbaroum com chat integrado",
+  "action": {
+    "title": "Ficha Symbaroum",
+    "icon": "icon.svg",
+    "popover": "index.html",
+    "height": 620,
+    "width": 460
+  }
+}
